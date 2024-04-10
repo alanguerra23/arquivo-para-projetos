@@ -1,0 +1,43 @@
+{
+  /*
+    * @narcisista3g
+    * Este arquivo é a configuração do workspace para o vscode, assim podemos padronizar as configuração de desenvolvimento
+  */
+  "folders": [
+    // Localização dos Arquivos do projeto
+    {
+      "path": "../"
+    }
+  ],
+  // Configuração de extensões
+  "extensions": {
+    "recommendations": [
+      "alefragnani.Bookmarks",
+      "EditorConfig.EditorConfig",
+      "ms-azuretools.vscode-docker",
+      "icrawl.discord-vscode"
+    ],
+    "unwantedRecommendations": []
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [],
+    "compounds": []
+  },
+  // Abaixo as configurações
+  "settings": {
+    // Bookmarks
+    "bookmarks.saveBookmarksInProject": true,
+    "bookmarks.experimental.enableNewStickyEngine": true,
+    // Pasta
+    "explorer.compactFolders": false,
+    // Arquivos
+    "files.exclude": {
+      "**\/CVS": true,
+      "**\/.DS_Store": true,
+      "**\/.hg": true,
+      "**\/.svn": true,
+      "**\/.git": true
+    },
+  },
+}
