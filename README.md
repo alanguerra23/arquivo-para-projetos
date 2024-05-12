@@ -1,4 +1,4 @@
-# Project Files Template
+# Project Files Template (Deprecated)
 
 >  Template para Criar projetos com arquivos prontos
 
